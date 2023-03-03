@@ -1,0 +1,65 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;                                                                
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('holi.jpg');
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 180px;
+}
+.date{
+    color:blue;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: auto;
+}
+.title{
+    margin-top: 40px;
+    color: green;
+    text-align: center;
+    font-size: 2.8rem;
+}
+.text{
+    margin-top: 20px;
+    color: purple;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    
+}
+.col{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color:red;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    width: 50%;
+    background-color: violet;
+    border-color: transparent;
+    border-radius: 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
